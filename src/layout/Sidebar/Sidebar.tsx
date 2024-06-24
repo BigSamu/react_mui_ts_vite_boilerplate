@@ -8,7 +8,6 @@ import { navigation } from '@/router';
 import SidebarLink from './SidebarLink';
 import SidebarSubmenu from './SidebarSubmenu';
 
-
 function Sidebar() {
   const isMobile = useIsMobile();
   const { sidebarOpen, setSidebarOpen } = useLayoutContext();
