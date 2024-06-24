@@ -11,16 +11,16 @@
   },
   "author": {
     "name": "Samuel Valdes Gutierrez",
-    "email": "samuelv@synopsys.com"
+    "email": "valdesgutierrez@gmail.com"
   },
   "repository": {
     "type": "git",
-    "url": "https://snpsghes-eda.internal.synopsys.com/voyager-ui"
+    "url": "https://github.com/BigSamu/react_mui_ts_vite_boilerplate"
   },
   "bugs": {
-    "url": "https://snpsghes-eda.internal.synopsys.com/voyager-ui/issues"
+    "url": "https://github.com/BigSamu/react_mui_ts_vite_boilerplate/issues"
   },
-  "homepage": "https://snpsghes-eda.internal.synopsys.com/voyager-ui#readme",
+  "homepage": "https://github.com/BigSamu/react_mui_ts_vite_boilerplate#readme",
   "scripts": {
     "start": "vite",
     "dev": "vite",

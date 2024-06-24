@@ -1,11 +1,11 @@
 import { Outlet } from 'react-router-dom';
 import Box from '@mui/material/Box';
 import Toolbar from '@mui/material/Toolbar';
+import { SIDEBAR_WIDTH } from '@/constants/theme.constants';
 import { useLayoutContext } from '@/contexts/LayoutContext';
 import useIsMobile from '@/hooks/useIsMobile';
 import Header from './Header';
 import Sidebar from './Sidebar';
-import { SIDEBAR_WIDTH } from '@/constants/theme.constants';
 
 function Layout() {
   const { sidebarOpen } = useLayoutContext();
