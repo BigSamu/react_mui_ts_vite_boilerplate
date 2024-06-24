@@ -1,0 +1,1 @@
+[Building a Modern React App with Vite, Vitest, TypeScript, ESLint, Prettier, and Husky](https://leandroaps.medium.com/building-a-modern-react-app-with-vite-vitest-typescript-eslint-prettier-and-husky-abc7a9876e9d)

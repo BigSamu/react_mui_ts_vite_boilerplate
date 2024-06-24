@@ -1,0 +1,10 @@
+{
+  "compilerOptions": {
+    "composite": true, // Enables project references and incremental builds for faster compilation
+    "module": "ESNext", // Generates code for the ESNext module system
+    "moduleResolution": "Node", // Resolves modules using Node.js-style module resolution
+    "skipLibCheck": true, // Skips type checking of all declaration files (*.d.ts)
+    "allowSyntheticDefaultImports": true // Allows default imports from modules with no default export
+  },
+  "include": ["vite.config.ts"] // Includes only the vite.config.ts file in the compilation
+}
