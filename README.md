@@ -17,21 +17,23 @@ UI Interfaces powered with Vite React and MaterialUI for new SynPLE application 
 Demo not yet available. Work in progress...
 
 <p align="left">
-  <img src="/public/assets/voyager-ui.png" alt="voyager-ui"/>
+  <img src="/public/assets/dashboard.png" alt="voyager-ui"/>
 </p>
 
 <!-- omit in toc -->
 
 ## Table of Contents
 
-- [About the Project](#about-the-project)
-- [Technologies](#technologies)
-  - [Prerequisites](#prerequisites)
-  - [Installation](#installation)
-  - [Usage](#usage)
-- [Additional Notes](#additional-notes)
-  - [Vite Installation Notes](#vite-installation-notes)
-    - [Expanding the ESLint configuration](#expanding-the-eslint-configuration)
+- [Voyager UI](#voyager-ui)
+  - [Table of Contents](#table-of-contents)
+  - [About the Project](#about-the-project)
+  - [Technologies](#technologies)
+    - [Prerequisites](#prerequisites)
+    - [Installation](#installation)
+    - [Usage](#usage)
+  - [Additional Notes](#additional-notes)
+    - [Vite Installation Notes](#vite-installation-notes)
+      - [Expanding the ESLint configuration](#expanding-the-eslint-configuration)
 
 <p align="right">(<a href="#back-to-top">back to top</a>)</p>
 
