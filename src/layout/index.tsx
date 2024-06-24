@@ -7,7 +7,7 @@ import Header from './Header';
 import Sidebar from './Sidebar';
 import { SIDEBAR_WIDTH } from './constants';
 
-function MainLayout() {
+function Layout() {
   const { sidebarOpen } = useLayoutContext();
   const isMobile = useIsMobile();
 
@@ -44,4 +44,4 @@ function MainLayout() {
   );
 }
 
-export default MainLayout;
+export default Layout;

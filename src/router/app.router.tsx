@@ -1,11 +1,11 @@
 import { Navigate, createBrowserRouter } from 'react-router-dom';
-import MainLayout from '@/layout/MainLayout/MainLayout';
+import Layout from '@/layout';
 import { About, Home, NotFound, Section } from '@/pages';
 
 const router = createBrowserRouter([
   {
     path: '/',
-    element: <MainLayout />,
+    element: <Layout />,
     children: [
       {
         index: true,
