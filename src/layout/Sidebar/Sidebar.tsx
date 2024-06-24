@@ -1,12 +1,13 @@
 import { Fragment, useCallback, useEffect } from 'react';
 import { ChevronLeft } from '@mui/icons-material';
 import { Box, Divider, Drawer, IconButton, List, Toolbar } from '@mui/material';
+import { SIDEBAR_WIDTH } from '@/constants/theme.constants';
 import { useLayoutContext } from '@/contexts/LayoutContext';
 import useIsMobile from '@/hooks/useIsMobile';
 import { navigation } from '@/router';
-import { SIDEBAR_WIDTH } from '../constants';
 import SidebarLink from './SidebarLink';
 import SidebarSubmenu from './SidebarSubmenu';
+
 
 function Sidebar() {
   const isMobile = useIsMobile();

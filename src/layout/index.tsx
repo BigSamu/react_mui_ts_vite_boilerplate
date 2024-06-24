@@ -5,7 +5,7 @@ import { useLayoutContext } from '@/contexts/LayoutContext';
 import useIsMobile from '@/hooks/useIsMobile';
 import Header from './Header';
 import Sidebar from './Sidebar';
-import { SIDEBAR_WIDTH } from './constants';
+import { SIDEBAR_WIDTH } from '@/constants/theme.constants';
 
 function Layout() {
   const { sidebarOpen } = useLayoutContext();

@@ -1,8 +1,8 @@
 import { Menu as MenuIcon } from '@mui/icons-material';
 import { AppBar, IconButton, Toolbar } from '@mui/material';
+import { SIDEBAR_WIDTH } from '@/constants/theme.constants';
 import { useLayoutContext } from '@/contexts/LayoutContext';
 import useIsMobile from '@/hooks/useIsMobile';
-import { SIDEBAR_WIDTH } from '../constants';
 import Breadcrumbs from './Breadcrumbs';
 
 function Header() {
